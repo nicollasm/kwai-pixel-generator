@@ -1,32 +1,21 @@
-# Arquivos específicos do Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-Recycle.Bin/
-$RECYCLE.BIN/
-*.cab
-*.lnk
-
-# Diretórios e arquivos do PyCharm
-.idea/
-*.iml
-
-# Arquivos compilados de Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-dist/
-build/
-*.egg
+*.py[cod]
+*$py.class
 
-# Outros arquivos comuns em ambientes Python
+# Logs
+logs/
 *.log
-*.swp
-*.bak
-*.orig
-*.db.sqlite3
-db.sqlite3
-*.sqlite3
-.Python
-db.sqlite3-journal
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

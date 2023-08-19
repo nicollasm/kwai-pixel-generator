@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Script Generator</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+<h1>Pixel Script Generator</h1>
+<div class="container">
+    <!-- Dropdown para seleção de plataforma -->
+    <select id="platform">
+        <option value="kwai_ads">Kwai Ads</option>
+        <option value="facebook_ads">Facebook Ads</option>
+    </select>
+    <!-- Campo de entrada para ID do pixel -->
+    <input type="text" id="pixel_id" placeholder="Digite o ID do Pixel">
+    <!-- Checkboxes para eventos -->
+    <div class="checkbox-group">
+        {% for event in events %}
+        <label>
+            <input type="checkbox" value="{{ event }}">{{ event }}
+        </label>
+        {% endfor %}
+    </div>
+    <!-- Botão para gerar o script -->
+    <button id="generateButton" onclick="generateScript()">Gerar Script</button>
+    <!-- Área de exibição para o script gerado -->
+    <pre id="result"></pre>
+</div>
+<div class="footer">
+    Desenvolvido por <a href="https://instagram.com/nicollasnclm" target="_blank">@nicollasnclm</a>
+</div>
+</body>
+</html>
