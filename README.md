@@ -1,44 +1,58 @@
-# Gerador de Scripts do Pixel do Kwai Ads
 
-![Badge Python](https://img.shields.io/badge/python-3.10-blue)
-![Badge Last Commit](https://img.shields.io/github/last-commit/nicollasm/kwai-pixel-generator)
-![Badge License](https://img.shields.io/github/license/nicollasm/kwai-pixel-generator)
+# Pixel Script Generator 🌟
 
-Uma ferramenta simples e eficaz para gerar scripts de pixel do Kwai Ads para diferentes eventos com base nas suas necessidades.
+**Pixel Script Generator** é uma ferramenta intuitiva que permite a geração rápida de scripts para diversas plataformas de anúncios, como Kwai Ads e Facebook Ads. Com uma interface amigável, você pode selecionar sua plataforma, inserir seu ID de pixel e escolher os eventos desejados. Em segundos, terá seu script pronto para uso!
+
+![Imagem da Interface](https://github.com/nicollasm/pixel-script-generator/blob/bdc849c465cf33d0114a309dbfd1063f6c6bb725/project-print.png)
 
 ## 🚀 Funcionalidades
 
-- Geração automática de scripts conforme eventos selecionados.
-- Interface gráfica intuitiva.
-- Copia facilmente os scripts gerados para a área de transferência.
+- Suporte a múltiplas plataformas de anúncios.
+- Seleção fácil de eventos.
+- Geração instantânea de scripts.
+- Interface responsiva e elegante.
 
-## 🛠️ Como usar
+## 🛠️ Instalação e Uso
 
-1. **Instalação**: Certifique-se de ter Python 3.x instalado.
-2. **Execução**: Rode o arquivo `main.py`.
-3. **Utilização**:
-    - Insira o ID do seu pixel.
-    - Selecione os eventos para os quais você deseja gerar scripts.
-    - Clique em "Gerar Scripts".
-    - Uma janela popup aparecerá com os scripts gerados.
-    - Use o botão "Copiar" ao lado de cada script para copiá-lo para a área de transferência.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/nicollasm/pixel-script-generator.git
+   ```
 
-## 📜 Requisitos
+2. Entre no diretório e instale as dependências:
+   ```bash
+   cd pixel-script-generator
+   pip install -r requirements.txt
+   ```
 
-- Python 3.x
-- Bibliotecas: `tkinter` e `pyperclip` (geralmente já vêm com a instalação padrão do Python).
+3. Execute o aplicativo:
+   ```bash
+   python app.py
+   ```
 
-## 📚 Licença
+4. Acesse `http://127.0.0.1:5000/` no seu navegador.
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+## 🛡️ Segurança
 
-## 🤝 Contribuições
+Estamos comprometidos em garantir que sua experiência seja segura. Implementamos várias medidas de segurança, como CSRF tokens e outras medidas de prevenção a ataques comuns.
 
-1. Faça um fork do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b minha-feature`.
-3. Salve as alterações e faça uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`.
-4. Envie as suas alterações: `git push origin minha-feature`.
+## 🌐 Contribuições
+
+Contribuições são bem-vindas! Se você encontrou um bug ou tem uma sugestão, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+
+## 🙌 Agradecimentos
+
+- A todos que contribuíram para este projeto.
+- A você por usar e apoiar **Pixel Script Generator**.
+
+## 📱 Social
+
+- **Desenvolvedor**: [@nicollasnclm](https://instagram.com/nicollasnclm)
+
+## 📜 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
-Feito com ❤️ por [Nicollas Martins](https://instagram.com/nicollasnclm)
+*Faça seu marketing digital decolar com **Pixel Script Generator**!* 🚀
