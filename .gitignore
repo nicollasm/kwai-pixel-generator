@@ -1,0 +1,32 @@
+# Arquivos específicos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Recycle.Bin/
+$RECYCLE.BIN/
+*.cab
+*.lnk
+
+# Diretórios e arquivos do PyCharm
+.idea/
+*.iml
+
+# Arquivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Outros arquivos comuns em ambientes Python
+*.log
+*.swp
+*.bak
+*.orig
+*.db.sqlite3
+db.sqlite3
+*.sqlite3
+.Python
+db.sqlite3-journal
