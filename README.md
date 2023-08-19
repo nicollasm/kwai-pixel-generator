@@ -1,6 +1,6 @@
 # Gerador de Scripts do Pixel do Kwai Ads
 
-![Badge Python](https://img.shields.io/badge/python-3.8-blue)
+![Badge Python](https://img.shields.io/badge/python-3.10-blue)
 ![Badge Last Commit](https://img.shields.io/github/last-commit/nicollasm/kwai-pixel-generator)
 ![Badge License](https://img.shields.io/github/license/nicollasm/kwai-pixel-generator)
 
