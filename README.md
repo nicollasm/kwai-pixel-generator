@@ -1,7 +1,7 @@
 
 # Pixel Script Generator 🌟
 
-**Pixel Script Generator** é uma ferramenta intuitiva que permite a geração rápida de scripts para diversas plataformas de anúncios, como Kwai Ads e Facebook Ads. Com uma interface amigável, você pode selecionar sua plataforma, inserir seu ID de pixel e escolher os eventos desejados. Em segundos, terá seu script pronto para uso!
+**Pixel Script Generator** é uma ferramenta intuitiva que permite a geração rápida de scripts para diversas plataformas de anúncios, como Kwai Ads, Facebook Ads e Tiktok Ads. Com uma interface amigável, você pode selecionar sua plataforma, inserir seu ID de pixel e escolher os eventos desejados. Em segundos, terá seu script pronto para uso!
 
 ![Imagem da Interface](https://github.com/nicollasm/pixel-script-generator/blob/bdc849c465cf33d0114a309dbfd1063f6c6bb725/project-print.png)
 
