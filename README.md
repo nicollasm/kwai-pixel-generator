@@ -32,10 +32,6 @@
 
 4. Acesse `http://127.0.0.1:5000/` no seu navegador.
 
-## 🛡️ Segurança
-
-Estamos comprometidos em garantir que sua experiência seja segura. Implementamos várias medidas de segurança, como CSRF tokens e outras medidas de prevenção a ataques comuns.
-
 ## 🌐 Contribuições
 
 Contribuições são bem-vindas! Se você encontrou um bug ou tem uma sugestão, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
